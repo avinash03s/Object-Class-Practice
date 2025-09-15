@@ -2,6 +2,8 @@ package ObjectClassMethods.toString_Method;
 
 /*when we try to take meaningful out-put then override toString method*/
 
+import java.util.ArrayList;
+
 public class Override_toStringMethod {
     String name;
     int id;
@@ -27,5 +29,14 @@ public class Override_toStringMethod {
 
         Override_toStringMethod ob3= new Override_toStringMethod("Harsh",103);
         System.out.println(ob3);
+
+        String s= new String("Surwase");
+        System.out.println(s);
+
+        ArrayList li= new ArrayList();
+        li.add("A");
+        li.add("B");
+        System.out.println(li);
+
     }
 }
