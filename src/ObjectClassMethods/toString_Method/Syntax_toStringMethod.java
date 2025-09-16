@@ -2,7 +2,7 @@ package ObjectClassMethods.toString_Method;
 
 public class Syntax_toStringMethod {
 
-
+    @Override
     public String toString(){
 
         return getClass().getName()+"@"+Integer.toHexString(hashCode());
