@@ -8,22 +8,23 @@ public class StringClassMethod {
         //compareTo()
         String s="Avinash";
         String str="Java";
-        int compare=s.compareTo(str);
+        int compare=s.compareTo(str);//comparison is based on Unicode
         System.out.println(compare);
 
         //compareToIgnoreCase()
         String s1="JavaProgram";
         String ss="javaprogram";
-        int comp=s1.compareToIgnoreCase(ss);
+        int comp=s1.compareToIgnoreCase(ss);//
         System.out.println(comp);
 
         //length()
         String s2="JavaDeveloper";
         System.out.println(s2.length());
 
+
         //replaceAll()
-        String s3="Programing";
-        System.out.println(s3.replaceAll("o","A"));
+        String s3="JavaCore";
+        System.out.println(s3.replaceAll("Java","Program"));
 
         //replace()
         String s4="Java";
@@ -85,9 +86,9 @@ public class StringClassMethod {
         System.out.println(s16==str3);
 
         //getBytes() method
-        String s17="Beed";
+       /* String s17="Beed";
         byte [] b=s17.getBytes();
-        System.out.println(Arrays.toString(b));
+        System.out.println(Arrays.toString(b));*/
 
         //contentEquals() method
         String s18="Mumbai";
